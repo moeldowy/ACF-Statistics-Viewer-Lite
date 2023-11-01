@@ -1,0 +1,18 @@
+/* Public CSS for ACF Statistics Viewer Lite */
+
+.acf-statistics-viewer-lite-public {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.acf-statistics-viewer-lite-public h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.acf-statistics-viewer-lite-public p {
+    font-size: 1em;
+    color: #666;
+}

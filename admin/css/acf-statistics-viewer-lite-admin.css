@@ -1,0 +1,50 @@
+/* Admin CSS for ACF Statistics Viewer Lite */
+
+.wrap .acf-statistics-viewer-lite-admin {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.wrap .acf-statistics-viewer-lite-admin h1 {
+    font-size: 2em;
+    color: #23282d;
+}
+
+.wrap .acf-statistics-viewer-lite-admin .statistics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wrap .acf-statistics-viewer-lite-admin .statistics-box {
+    border: 1px solid #ccd0d4;
+    padding: 15px;
+    border-radius: 5px;
+    width: calc(33.3333% - 20px);
+    box-sizing: border-box;
+}
+
+.wrap .acf-statistics-viewer-lite-admin .statistics-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.wrap .acf-statistics-viewer-lite-admin .statistics-box p {
+    color: #555;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrap .acf-statistics-viewer-lite-admin .statistics-box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .wrap .acf-statistics-viewer-lite-admin .statistics-box {
+        width: 100%;
+    }
+}
