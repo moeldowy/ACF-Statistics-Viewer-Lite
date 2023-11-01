@@ -1,5 +1,6 @@
 # ACF-Statistics-Viewer-Lite
-Plugin Name: ACF Statistics Viewer Lite Developer Name: Mohammed Salah
+Plugin Name: ACF Statistics Viewer Lite 
+Developer Name: Mohammed Salah
 
 Description:
 
