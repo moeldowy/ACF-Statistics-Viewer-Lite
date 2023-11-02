@@ -58,3 +58,7 @@ function run_acf_statistics_viewer_lite(): void {
     $plugin->run();
 }
 run_acf_statistics_viewer_lite();
+function acf_statistics_add_capabilities() {
+    $role = get_role('editor'); // Change to the role you want
+    $role?->add_cap('manage_options');
+}

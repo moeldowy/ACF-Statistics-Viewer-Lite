@@ -7,6 +7,6 @@ namespace ACFStatisticsViewerLite\Includes;
  */
 class ACF_Statistics_Viewer_Lite_Deactivator {
     public static function deactivate(): void {
-        // Code to run during plugin deactivation
+        register_deactivation_hook(__FILE__, 'acf_statistics_remove_capabilities');
     }
 }

@@ -7,6 +7,6 @@ namespace ACFStatisticsViewerLite\Includes;
  */
 class ACF_Statistics_Viewer_Lite_Activator {
     public static function activate(): void {
-        // Code to run during plugin activation
+        register_activation_hook(__FILE__, 'acf_statistics_add_capabilities');
     }
 }
